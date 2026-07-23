@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoções</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Banner -->
+    <div class="promo-banner">
+        Frete grátis para compras acima de R$399
+        <a href="#">Saiba mais</a>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="header__logo">
+         <img src="img/logo-hsg.png" alt="Logo HSG">
+         </a>
+
+            <a href="index.html" class="header__logo">
+                Hidraulica São Gabriel
+            </a>
+
+             <nav>
+                <ul class="header__nav">
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="novidades.html">Novidades</a></li>
+                    <li><a href="promocoes.html">Promoções</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="Sobree.html">Sobre</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <button class="btn--icon">🔍</button>
+                <button class="btn--icon">❤️</button>
+
+                <button class="btn--icon" id="theme-toggle">
+                    🌙
+                </button>
+
+                <button class="btn--icon" id="cart-toggle">
+                    🛒
+                    <span class="cart-count" id="cart-count">0</span>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Produtos -->
+    <section class="section">
+        <div class="container">
+
+            <div class="section-header">
+                <div>
+                    <h2 class="section-header__title">
+                        Promoções
+                    </h2>
+
+                    <p class="section-header__sub">
+                        Descontos de até 40%
+                    </p>
+                </div>
+
+                <div class="search-field">
+                    <span class="search-field__icon">🔍</span>
+                    <input type="text" placeholder="Buscar produtos...">
+                </div>
+            </div>
+
+            <div class="filter-bar">
+                <button class="filter-pill active">Todos</button>
+                <button class="filter-pill">Torneiras</button>
+                <button class="filter-pill">Adaptadores</button>
+                <button class="filter-pill">Incêndio</button>
+                <button class="filter-pill">Promoções</button>
+            </div>
+
+            <div class="products-grid">
+
+                <!-- Produto 1 -->
+                <div class="product-card">
+
+                    <div class="product-card__image">
+
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_933959-MLA112305750642_062026-F.webp" alt="Produto">
+
+                        <div class="product-card__badges">
+                            <span class="badge badge--new">
+                                Novo
+                            </span>
+                        </div>
+
+                        <button class="product-card__wishlist">
+                            ❤️
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__body">
+
+                        <div class="product-card__category">
+                            Incêndio
+                        </div>
+
+                        <h3 class="product-card__name">
+                            Válvula Longa 11  cm
+                        </h3>
+
+                        <div class="rating">
+                            <span class="rating__stars">★★★★★</span>
+                            <span class="rating__count">(159)</span>
+                        </div>
+
+                        <div class="product-card__footer">
+
+                            <div class="product-card__price">
+                                <span class="current">R$ 45,90</span>
+                            </div>
+
+                            <button class="btn btn--primary btn--sm add-to-cart"
+                                    data-name="Válvula Longa 11cm"
+                                    data-price="45.90"
+                                    data-img="https://http2.mlstatic.com/D_NQ_NP_2X_933959-MLA112305750642_062026-F.webp">
+                                Comprar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Produto 2-->
+                <div class="product-card">
+
+                    <div class="product-card__image">
+
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_840429-MLB113456504373_062026-F.webp" alt="Produto">
+
+                        <div class="product-card__badges">
+                            <span class="badge badge--sale">
+                                -10%
+                            </span>
+                        </div>
+
+                        <button class="product-card__wishlist">
+                            ❤️
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__body">
+
+                        <div class="product-card__category">
+                            Incêndio
+                        </div>
+
+                        <h3 class="product-card__name">
+                            Válvula Para Pia Americana 4 1/2 Metal
+                        </h3>
+
+                        <div class="rating">
+                            <span class="rating__stars">★★★★☆</span>
+                            <span class="rating__count">(149)</span>
+                        </div>
+
+                        <div class="product-card__footer">
+
+                            <div class="product-card__price">
+                                <span class="current">R$ 70,50</span>
+                                <span class="original">R$ 84,90</span>
+                            </div>
+
+                            <button class="btn btn--primary btn--sm add-to-cart"
+                                    data-name="Válvula Para Pia Americana 4 1/2 Metal"
+                                    data-price="70.50"
+                                    data-img="https://http2.mlstatic.com/D_NQ_NP_2X_840429-MLB113456504373_062026-F.webp">
+                                Comprar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Produto 3 -->
+                <div class="product-card">
+
+                    <div class="product-card__image">
+
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_644680-MLA112450977872_062026-F.webp" alt="Produto">
+
+                        <div class="product-card__badges">
+                            <span class="badge badge--sale">
+                                -30%
+                            </span>
+                        </div>
+
+                        <button class="product-card__wishlist">
+                            ❤️
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__body">
+
+                        <div class="product-card__category">
+                            Adaptadores
+                        </div>
+
+                        <h3 class="product-card__name">
+                            Kit 5 niples 1\2
+                        </h3>
+
+                        <div class="rating">
+                            <span class="rating__stars">★★★★★</span>
+                            <span class="rating__count">(101)</span>
+                        </div>
+
+                        <div class="product-card__footer">
+
+                            <div class="product-card__price">
+                                <span class="current">R$ 42,90</span>
+                                <span class="original">R$ 56,90</span>
+                            </div>
+
+                            <button class="btn btn--primary btn--sm add-to-cart"
+                                    data-name="Kit 5 niples 1/2"
+                                    data-price="42.90"
+                                    data-img="https://http2.mlstatic.com/D_NQ_NP_2X_644680-MLA112450977872_062026-F.webp">
+                                Comprar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="product-card">
+
+                    <div class="product-card__image">
+
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_626445-MLB113618317325_062026-F.webp" alt="Produto">
+
+                        <div class="product-card__badges">
+                            <span class="badge badge--sale">
+                                -5%
+                            </span>
+                        </div>
+
+                        <button class="product-card__wishlist">
+                            ❤️
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__body">
+
+                        <div class="product-card__category">
+                            Incêndio
+                        </div>
+
+                        <h3 class="product-card__name">
+                            Cesta Válvula Americana 4 1 \ 2 Leve Inox
+                        </h3>
+
+                        <div class="rating">
+                            <span class="rating__stars">★★★★☆</span>
+                            <span class="rating__count">(121)</span>
+                        </div>
+
+                        <div class="product-card__footer">
+
+                            <div class="product-card__price">
+                                <span class="current">R$ 27,99</span>
+                                <span class="original">R$ 29,90</span>
+                            </div>
+
+                            <button class="btn btn--primary btn--sm add-to-cart"
+                                    data-name="Cesta Válvula Americana 4 1/2 Leve Inox"
+                                    data-price="27.99"
+                                    data-img="https://http2.mlstatic.com/D_NQ_NP_2X_626445-MLB113618317325_062026-F.webp">
+                                Comprar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Produto 5 -->
+                <div class="product-card">
+
+                    <div class="product-card__image">
+
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_798948-MLB113617844133_062026-F.webp" alt="Produto">
+
+                        <div class="product-card__badges">
+                            <span class="badge badge--sale">
+                                -10%
+                            </span>
+                        </div>
+
+                        <button class="product-card__wishlist">
+                            ❤️
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__body">
+
+                        <div class="product-card__category">
+                            Adaptadores
+                        </div>
+
+                        <h3 class="product-card__name">
+                            Cesta Válvula Pia Americana Leve 3 1 \2 Inox
+                        </h3>
+
+                        <div class="rating">
+                            <span class="rating__stars">★★★★★</span>
+                            <span class="rating__count">(107)</span>
+                        </div>
+
+                        <div class="product-card__footer">
+
+                            <div class="product-card__price">
+                                <span class="current">R$ 19,90</span>
+                                <span class="original">R$ 25,90</span>
+                            </div>
+
+                            <button class="btn btn--primary btn--sm add-to-cart"
+                                    data-name="Cesta Válvula Pia Americana Leve 3 1/2 Inox"
+                                    data-price="19.90"
+                                    data-img="https://http2.mlstatic.com/D_NQ_NP_2X_798948-MLB113617844133_062026-F.webp">
+                                Comprar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Produto 5 -->
+                <div class="product-card">
+
+                    <div class="product-card__image">
+
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_809256-MLB113662568675_062026-F.webp" alt="Produto">
+
+                        <div class="product-card__badges">
+                            <span class="badge badge--sale">
+                                -10%
+                            </span>
+                        </div>
+
+                        <button class="product-card__wishlist">
+                            ❤️
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__body">
+
+                        <div class="product-card__category">
+                            Adaptadores
+                        </div>
+
+                        <h3 class="product-card__name">
+                            Registro Pressão 1400 3/4 Am
+                        </h3>
+
+                        <div class="rating">
+                            <span class="rating__stars">★★★★★</span>
+                            <span class="rating__count">(99)</span>
+                        </div>
+
+                        <div class="product-card__footer">
+
+                            <div class="product-card__price">
+                                <span class="current">R$ 32,15</span>
+                                <span class="original">R$ 48,90</span>
+                            </div>
+
+                            <button class="btn btn--primary btn--sm add-to-cart"
+                                    data-name="Registro Pressão 1400 3/4 Am"
+                                    data-price="32.15"
+                                    data-img="https://http2.mlstatic.com/D_NQ_NP_2X_809256-MLB113662568675_062026-F.webp">
+                                Comprar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                              <!-- Produto 5 -->
+                <div class="product-card">
+
+                    <div class="product-card__image">
+
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_650721-MLB112303860518_062026-F.webp" alt="Produto">
+
+                        <div class="product-card__badges">
+                            <span class="badge badge--sale">
+                                -25%
+                            </span>
+                        </div>
+
+                        <button class="product-card__wishlist">
+                            ❤️
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__body">
+
+                        <div class="product-card__category">
+                            Adaptadores
+                        </div>
+
+                        <h3 class="product-card__name">
+                            botoeira De Alarme De Incêndio Com Martelo
+                        </h3>
+
+                        <div class="rating">
+                            <span class="rating__stars">★★★★★</span>
+                            <span class="rating__count">(93)</span>
+                        </div>
+
+                        <div class="product-card__footer">
+
+                            <div class="product-card__price">
+                                <span class="current">R$ 57,25</span>
+                                <span class="original">R$ 65,90</span>
+                            </div>
+
+                            <button class="btn btn--primary btn--sm add-to-cart"
+                                    data-name="Botoeira De Alarme De Incêndio Com Martelo"
+                                    data-price="57.25"
+                                    data-img="https://http2.mlstatic.com/D_NQ_NP_2X_650721-MLB112303860518_062026-F.webp">
+                                Comprar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                              <!-- Produto 7 -->
+                <div class="product-card">
+
+                    <div class="product-card__image">
+
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_669173-MLA106363096206_022026-F.webp" alt="Produto">
+
+                        <div class="product-card__badges">
+                            <span class="badge badge--sale">
+                                -10%
+                            </span>
+                        </div>
+
+                        <button class="product-card__wishlist">
+                            ❤️
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__body">
+
+                        <div class="product-card__category">
+                            Torneiras
+                        </div>
+
+                        <h3 class="product-card__name">
+                            Martelinho Com Corrente Para Botoeira
+                        </h3>
+
+                        <div class="rating">
+                            <span class="rating__stars">★★★★★</span>
+                            <span class="rating__count">(44)</span>
+                        </div>
+
+                        <div class="product-card__footer">
+
+                            <div class="product-card__price">
+                                <span class="current">R$ 24,25</span>
+                                <span class="original">R$ 33,90</span>
+                            </div>
+
+                            <button class="btn btn--primary btn--sm add-to-cart"
+                                    data-name="Martelinho Com Corrente Para Botoeira"
+                                    data-price="24.25"
+                                    data-img="https://http2.mlstatic.com/D_NQ_NP_2X_669173-MLA106363096206_022026-F.webp">
+                                Comprar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                             <!-- Produto 7 -->
+                <div class="product-card">
+
+                    <div class="product-card__image">
+
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_964387-MLA107386561805_022026-F.webp" alt="Produto">
+
+                        <div class="product-card__badges">
+                            <span class="badge badge--sale">
+                                -25%
+                            </span>
+                        </div>
+
+                        <button class="product-card__wishlist">
+                            ❤️
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__body">
+
+                        <div class="product-card__category">
+                            Torneiras
+                        </div>
+
+                        <h3 class="product-card__name">
+                            Válvula Gofield 1 Metal Dn 25 Pn40 1 Via
+                        </h3>
+
+                        <div class="rating">
+                            <span class="rating__stars">★★★★★</span>
+                            <span class="rating__count">(25)</span>
+                        </div>
+
+                        <div class="product-card__footer">
+
+                            <div class="product-card__price">
+                                <span class="current">R$ 33,53</span>
+                                <span class="original">R$ 52,90</span>
+                            </div>
+
+                            <button class="btn btn--primary btn--sm add-to-cart"
+                                    data-name="Válvula Gofield 1 Metal Dn 25 Pn40 1 Via"
+                                    data-price="33.53"
+                                    data-img="https://http2.mlstatic.com/D_NQ_NP_2X_964387-MLA107386561805_022026-F.webp">
+                                Comprar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                          <!-- Produto 7 -->
+                <div class="product-card">
+
+                    <div class="product-card__image">
+
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_788781-MLA106720685042_022026-F.webp" alt="Produto">
+
+                        <div class="product-card__badges">
+                            <span class="badge badge--sale">
+                                -25%
+                            </span>
+                        </div>
+
+                        <button class="product-card__wishlist">
+                            ❤️
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__body">
+
+                        <div class="product-card__category">
+                            Torneiras
+                        </div>
+
+                        <h3 class="product-card__name">
+                            Luva De Malha Tricotada 3 Fios Branca (12 Pares)
+                        </h3>
+
+                        <div class="rating">
+                            <span class="rating__stars">★★★★★</span>
+                            <span class="rating__count">(25)</span>
+                        </div>
+
+                        <div class="product-card__footer">
+
+                            <div class="product-card__price">
+                                <span class="current">R$ 33,53</span>
+                                <span class="original">R$ 52,90</span>
+                            </div>
+
+                            <button class="btn btn--primary btn--sm add-to-cart"
+                                    data-name="Luva De Malha Tricotada 3 Fios Branca (12 Pares)"
+                                    data-price="33.53"
+                                    data-img="https://http2.mlstatic.com/D_NQ_NP_2X_788781-MLA106720685042_022026-F.webp">
+                                Comprar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer__grid">
+
+                <div>
+                    <div class="footer__logo">
+                        Hidráulica São Gabriel
+                    </div>
+
+                    <p class="footer__desc">
+                        Produtos selecionados para oferecer qualidade,
+                        elegância e praticidade para seu dia a dia.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="footer__heading">
+                        Loja
+                    </h4>
+
+                    <ul class="footer__links">
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="promocoes.html">Promoções</a></li>
+                        <li><a href="#">Novidades</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer__heading">
+                        Empresa
+                    </h4>
+
+                    <ul class="footer__links">
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer__heading">
+                        Suporte
+                    </h4>
+
+                    <ul class="footer__links">
+                        <li><a href="#">Ajuda</a></li>
+                        <li><a href="#">Trocas</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+                <span>©️ 2026 Hidráulica São Gabriel. Todos os direitos reservados.</span>
+                <span>Desenvolvido com HTML + CSS</span>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Carrinho lateral -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <aside class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-sidebar__header">
+            <h3>Seu carrinho</h3>
+            <button class="cart-close" id="cart-close">✕</button>
+        </div>
+
+        <div class="cart-sidebar__items" id="cart-items">
+            <!-- itens injetados via JS -->
+        </div>
+
+        <div class="cart-sidebar__footer">
+            <div class="cart-total">
+                <span>Total</span>
+                <span id="cart-total">R$ 0,00</span>
+            </div>
+            <button class="btn btn--primary" style="width:100%;">
+                Finalizar Compra
+            </button>
+        </div>
+    </aside>
+
+    <script src="cart.js"></script>
+    <script>
+    const themeBtn = document.getElementById("theme-toggle");
+
+    themeBtn.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+
+        if (document.body.classList.contains("dark-mode")) {
+            themeBtn.textContent = "☀️";
+            localStorage.setItem("theme", "dark");
+        } else {
+            themeBtn.textContent = "🌙";
+            localStorage.setItem("theme", "light");
+        }
+    });
+
+    if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+        themeBtn.textContent = "☀️";
+    }
+    </script>
+
+</body>
+</html>
